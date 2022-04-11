@@ -4,7 +4,7 @@ for(let i = 0; i<array.length; i++)
 {
     if(array[i]>max) { max=array[i];}
     {
-        max=array[i];
+        max=numbers[i];
     }
 }
-console.log("max="+max); // finding max element from array
+console.log("max="+max);

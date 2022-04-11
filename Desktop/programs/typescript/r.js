@@ -1,7 +1,7 @@
 var countChar = function (str) {
     var counts = {};
-    for (var i = 0, str_1 = str; _i < str_1.length; _i++) {
-        var s = str_1[_i];
+    for (var i = 0, str = str; i < str.length; i++) {
+        var s = str[i];
         if (counts[s]) {
             counts[s]++;
         }

@@ -7,4 +7,4 @@ for(let i = 0; i<array.length; i++)
         max=array[i];
     }
 }
-console.log("max="+max); // finding max element from array
+console.log("max="+max);
